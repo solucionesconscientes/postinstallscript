@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Actualizar repositorios e instalar wget, git y curl
+# Actualizar repositorios e instalar nala, wget, git y curl
 sudo apt update -y
 sudo apt install -y nala
 sudo nala install -y wget git curl
