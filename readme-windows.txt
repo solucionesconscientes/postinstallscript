@@ -1,6 +1,6 @@
-1. Abrir Powershell como administrador
-2. Pegar el siguiente comando para permitir la ejecución de escripts sólo durante la sesión actual, al cerrar la sesión y volver a iniciar la ejecución de scripts no estará permitida: Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass -Force
-3. Click derecho sobre el script, ejecutar con Powershell.
+Click derecho sobre el script, ejecutar con Powershell.
+Si tenemos restringida la ejecución de scripts, el script nos pedirá habilitarla hasta el cierre de sesión con "O"
+Seleccionamos las aplicaciones deseadas y pulsamos enter.
 
 Instalar Chocolatey con interfaz gráfica (independiente del script)
 Chocolatey: iwr https://community.chocolatey.org/install.ps1 -UseBasicParsing | iex
