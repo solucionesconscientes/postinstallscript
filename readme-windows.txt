@@ -3,5 +3,9 @@ Si tenemos restringida la ejecución de scripts, el script nos pedirá habilitar
 Seleccionamos las aplicaciones deseadas y pulsamos enter.
 
 Instalar Chocolatey con interfaz gráfica (independiente del script)
-Chocolatey: iwr https://community.chocolatey.org/install.ps1 -UseBasicParsing | iex
-Chocolatey GUI: choco install chocolateygui -y
+Abrir Power Shell como administrador
+Pegar los siguientes comandos:
+Instalar Chocolatey: 
+iwr https://community.chocolatey.org/install.ps1 -UseBasicParsing | iex
+Instalar Chocolatey GUI: 
+choco install chocolateygui -y
